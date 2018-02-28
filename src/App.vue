@@ -2,16 +2,19 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MoneyManager></MoneyManager>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import MoneyManager from './components/MoneyManager.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    MoneyManager
   }
 }
 </script>
